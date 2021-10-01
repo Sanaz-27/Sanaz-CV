@@ -89,6 +89,23 @@ skills <- tribble(
 build_skill_bars(skills)
 ```
 
+
+Open Source Contributions {#open-source}
+--------------------------------------------------------------------------------
+
+All projects available at `github.com/nstrayer/<name>`
+
+- [- **kableExtra Package**](https://rpubs.com/Sanaz/798154) 
+- [- **Dashboard**](https://sanazam.shinyapps.io/Final-Project-Dashboard-Abu-Mahfouth/#section-about)
+
+
+More info {#more-info}
+--------------------------------------------------------------------------------
+
+See full CV at https://sanaz-27.github.io/Sanaz-CV/ for more complete list of positions and publications.
+
+
+
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
