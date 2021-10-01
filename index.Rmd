@@ -175,8 +175,6 @@ Links {data-icon=link}
 
 <br>
 <br>
-<br>
-<br>
 
 ::: aside
 
