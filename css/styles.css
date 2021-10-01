@@ -29,21 +29,21 @@ sup {
 
 * {
   /* Override default right margin for sidebar*/
-  --pagedjs-margin-right: 0.2in;
-  --pagedjs-margin-left: 0.2in;
+  --pagedjs-margin-right: 0.1in;
+  --pagedjs-margin-left: 0.1in;
 }
 
 /* Customize some of the sizing variables */
 :root {
   --sidebar-width: 12rem; /* Shrink sidebar width  */
-  --sidebar-background-color: #f7fbff; /* Make sidebar blue */
+  --sidebar-background-color: #ADD8E6; /* Make sidebar blue */
   --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
   --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
-  --decorator-border: 2px solid #bdd7e7; /* Make timeline a blue as well*/
+  --decorator-border: 2px solid #ADD8E6; /* Make timeline a blue as well*/
 }
 
 .details .place {
-  margin-top: 0.25rem;
+  margin-top: 0.15rem;
 }
 
 .main-block:not(.concise) .details div {
@@ -85,7 +85,7 @@ sup {
 
 /* Make little circle outline be a light blue */
 .decorator::after {
-  background-color: #08306b;
+  background-color: #ADD8E6;
 }
 
 /* Remove the fake bullets from lists */

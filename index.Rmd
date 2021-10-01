@@ -89,19 +89,14 @@ skills <- tribble(
 build_skill_bars(skills)
 ```
 
-
-
-
-
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
 Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
 
-The source code is available at [github.com/Sanaz-27/Sanaz-CV](https://github.com/Sanaz-27/Sanaz-CV).
+Source code: [github.com/Sanaz-27/Sanaz-CV](https://github.com/Sanaz-27/Sanaz-CV).
 
 Last updated on `r Sys.Date()`.
-
 
 
 
@@ -119,7 +114,6 @@ cat(sanitize_links(intro_text))
 ```
 
 <br>
-<br>
 
 **Education** {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -129,7 +123,6 @@ print_section(position_data, 'education')
 ```
 
 <br>
-<br>
 
 **Work Experience** {data-icon=laptop}
 --------------------------------------------------------------------------------
@@ -138,7 +131,6 @@ print_section(position_data, 'education')
 print_section(position_data, 'Work_Experience')
 ```
 
-<br>
 <br>
 
 **Volunteer Experience** {data-icon=suitcase}
@@ -153,7 +145,6 @@ print_section(position_data, 'Volunteer_Experience')
 ```
 
 <br>
-<br>
 
 **Projects** {data-icon=suitcase}
 --------------------------------------------------------------------------------
@@ -166,7 +157,6 @@ I have worked in a variety of Projects. I would love to leave an Impact in this 
 print_section(position_data, 'Projects')
 ```
 
-<br>
 <br>
 
 ```{r}
@@ -186,5 +176,7 @@ Links {data-icon=link}
   })
 }
 ```
+
+<br>
 
 
