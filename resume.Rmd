@@ -52,8 +52,6 @@ Aside
 Contact {#contact}
 --------------------------------------------------------------------------------
 
-
-
 - <i class="fa fa-envelope"></i> sana.zamil@hotmail.com
 - <i class="fa fa-twitter"></i> [ZamilSana](https://twitter.com/ZamilSana?t=cnDk857gNIk96MCH0fwlMw&s=09)
 - <i class="fa fa-github"></i> [Sanaz](https://github.com/Sanaz-27)

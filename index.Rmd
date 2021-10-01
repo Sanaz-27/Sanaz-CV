@@ -37,7 +37,7 @@ if(PDF_EXPORT){
   cat("
   <style>
   :root{
-    --decorator-outer-offset-left: -6.5px;
+    --decorator-outer-offset-left: -2.5px;
   }
   </style>")
 }
@@ -46,7 +46,6 @@ if(PDF_EXPORT){
 
 Aside
 ================================================================================
-
 
 ![logo](Profile_Sanaz.png){width=100%}
 
@@ -141,7 +140,7 @@ print_section(position_data, 'education')
 
 <br>
 
-**Work Experience** {data-icon=laptop}
+**Work Experience** {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -149,8 +148,9 @@ print_section(position_data, 'Work_Experience')
 ```
 
 <br>
+<br>
 
-**Volunteer Experience** {data-icon=suitcase}
+**Volunteer Experience** {data-icon=fingerprint}
 --------------------------------------------------------------------------------
 
 ::: aside
@@ -161,9 +161,9 @@ I have volunteered in a variety of roles. I would love to leave an Impact in thi
 print_section(position_data, 'Volunteer_Experience')
 ```
 
-<br>
 
-**Projects** {data-icon=suitcase}
+
+**Projects** {data-icon=lightbulb}
 --------------------------------------------------------------------------------
 
 ::: aside
@@ -174,7 +174,7 @@ I have worked in a variety of Projects. I would love to leave an Impact in this 
 print_section(position_data, 'Projects')
 ```
 
-<br>
+
 
 ```{r}
 if(PDF_EXPORT){
