@@ -118,7 +118,8 @@ intro_text <- "**This is a sample of my CV, presented as an M.S lab for CPP 527:
 cat(sanitize_links(intro_text))
 ```
 
-
+<br>
+<br>
 
 **Education** {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -127,7 +128,8 @@ cat(sanitize_links(intro_text))
 print_section(position_data, 'education')
 ```
 
-
+<br>
+<br>
 
 **Work Experience** {data-icon=laptop}
 --------------------------------------------------------------------------------
@@ -136,7 +138,8 @@ print_section(position_data, 'education')
 print_section(position_data, 'Work_Experience')
 ```
 
-
+<br>
+<br>
 
 **Volunteer Experience** {data-icon=suitcase}
 --------------------------------------------------------------------------------
@@ -151,8 +154,20 @@ print_section(position_data, 'Volunteer_Experience')
 
 <br>
 <br>
-<br>
 
+**Projects** {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+::: aside
+I have worked in a variety of Projects. I would love to leave an Impact in this world before I die. 
+:::
+
+```{r}
+print_section(position_data, 'Projects')
+```
+
+<br>
+<br>
 
 ```{r}
 if(PDF_EXPORT){
