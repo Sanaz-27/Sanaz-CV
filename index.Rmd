@@ -61,13 +61,11 @@ if(PDF_EXPORT){
 Contact {#contact}
 --------------------------------------------------------------------------------
 
-
 - <i class="fa fa-envelope"></i> sana.zamil@hotmail.com
 - <i class="fa fa-twitter"></i> [ZamilSana](https://twitter.com/ZamilSana?t=cnDk857gNIk96MCH0fwlMw&s=09)
 - <i class="fa fa-github"></i> [Sanaz](https://github.com/Sanaz-27)
 - <i class="fa fa-link"></i> [sanazamil](https://www.linkedin.com/in/sanazamil/)
 - <i class="fa fa-phone"></i> (+962)79 726 5182
-
 
 
 Software Skills {#skills}
@@ -92,27 +90,8 @@ build_skill_bars(skills)
 Open Source Contributions {#open-source}
 --------------------------------------------------------------------------------
 
-All projects available at `github.com/nstrayer/<name>`
-
 - [- **kableExtra Package**](https://rpubs.com/Sanaz/798154) 
 - [- **Dashboard**](https://sanazam.shinyapps.io/Final-Project-Dashboard-Abu-Mahfouth/#section-about)
-
-
-More info {#more-info}
---------------------------------------------------------------------------------
-
-See full CV at https://sanaz-27.github.io/Sanaz-CV/ for more complete list of positions and publications.
-
-
-
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
-
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
-
-Source code: [github.com/Sanaz-27/Sanaz-CV](https://github.com/Sanaz-27/Sanaz-CV).
-
-Last updated on `r Sys.Date()`.
 
 
 
@@ -167,7 +146,7 @@ print_section(position_data, 'Volunteer_Experience')
 --------------------------------------------------------------------------------
 
 ::: aside
-I have worked in a variety of Projects. I would love to leave an Impact in this world before I die. 
+I have worked in a variety of Projects. 
 :::
 
 ```{r}
@@ -195,5 +174,23 @@ Links {data-icon=link}
 ```
 
 <br>
+<br>
+<br>
+<br>
+
+::: aside
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+**Made with the R package** [**pagedown**](https://github.com/rstudio/pagedown). 
+
+**Source code:** [github.com/Sanaz-27/Sanaz-CV](https://github.com/Sanaz-27/Sanaz-CV).
+
+**Last updated on** `r Sys.Date()`.
+:::
 
 
