@@ -94,7 +94,7 @@ print_section <- function(position_data, section_id){
 
 # Construct a bar chart of skills
 build_skill_bars <- function(skills, out_of = 5){
-  bar_color <- "#d9b2b2"
+  bar_color <- "#8B0000"
   bar_background <- "#ffffff"
   skills %>% 
     mutate(width_percent = round(100*level/out_of)) %>% 
