@@ -83,9 +83,9 @@ sup {
   font-size: 0.75rem;
 }
 
-/* Make little circle outline be a green */
+/* Make little circle outline be red */
 .decorator::after {
-  background-color: #2F4F4F;
+  background-color: #B22222;
 }
 
 /* Remove the fake bullets from lists */
