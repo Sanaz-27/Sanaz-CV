@@ -1,6 +1,6 @@
 ---
-title: "Nick Strayer's CV"
-author: Nick Strayer
+title: "Sana' Zamil's CV"
+author: Sana' Zamil
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -19,7 +19,7 @@ library(glue)
 library(tidyverse)
 
 # Set this to true to have links turned into footnotes at the end of the document
-PDF_EXPORT <- FALSE
+PDF_EXPORT <- TRUE
 
 # Holds all the links that were inserted for placement at the end
 links <- c()
@@ -48,7 +48,7 @@ Aside
 ================================================================================
 
 
-![logo](beta_dist.png){width=100%}
+![logo](Profile_Sanaz.png){width=100%}
 
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
@@ -63,11 +63,11 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 
-- <i class="fa fa-envelope"></i> nick.strayer@gmail.com
-- <i class="fa fa-twitter"></i> NicholasStrayer
-- <i class="fa fa-github"></i> github.com/nstrayer
-- <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
-- <i class="fa fa-phone"></i> (734) 645-0110
+- <i class="fa fa-envelope"></i> sana.zamil@hotmail.com
+- <i class="fa fa-twitter"></i> ZamilSana
+- <i class="fa fa-github"></i> https://github.com/Sanaz-27
+- <i class="fa fa-link"></i> [sanazamil](https://www.linkedin.com/in/sanazamil/)
+- <i class="fa fa-phone"></i> (00962)79 726 5182
 
 
 
@@ -78,12 +78,12 @@ Language Skills {#skills}
 skills <- tribble(
   ~skill,               ~level,
   "R",                  5,
-  "Javascript (d3.js)", 4.5,
-  "Python",             4,
-  "Bash",               3.5,
-  "SQL",                3,
-  "C++",                3,
-  "AWK",                3
+  "Javascript (d3.js)", 3,
+  "Presentation ",  5,
+  "AutoCAD ", 5,
+  "ArcGIS ",     4.5,
+  "Microstation",  4,
+  "Photoshop",     4
 )
 
 build_skill_bars(skills)
@@ -108,7 +108,7 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Nick Strayer {#title}
+Sana' Zamil {#title}
 --------------------------------------------------------------------------------
 
 
@@ -132,11 +132,11 @@ print_section(position_data, 'education')
 
 
 
-Research Experience {data-icon=laptop}
+Work Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r}
-print_section(position_data, 'research_positions')
+print_section(position_data, 'Work_Experience')
 ```
 
 
