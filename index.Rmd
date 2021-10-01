@@ -115,10 +115,6 @@ Sana' Zamil {#title}
 ```{r}
 intro_text <- "**This is a sample of my CV, presented as an M.S lab for CPP 527: Foundations of Data Science Part II, at [Arizona State University](https://publicservice.asu.edu/programs/ms/program-evaluation-and-data-analytics-ms), to build templates for R Markdown documents with [Dr.Jesse D. Lecy](https://www.lecy.info/).**"
 
-
-"Currently searching for a data science position that allows me to build tools using visualization and machine learning to help people explore and understand their data. 
-"
-
 cat(sanitize_links(intro_text))
 ```
 
