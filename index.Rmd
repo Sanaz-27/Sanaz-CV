@@ -95,7 +95,6 @@ Open Source Contributions {#open-source}
 - [- **Dashboard**](https://sanazam.shinyapps.io/Final-Project-Dashboard-Abu-Mahfouth/#section-about)
 
 
-
 Main
 ================================================================================
 
@@ -108,14 +107,12 @@ intro_text <- "**This is a sample of my CV, presented as an M.S lab for CPP 527:
 cat(sanitize_links(intro_text))
 ```
 
-
 **Education** {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
 print_section(position_data, 'education')
 ```
-
 
 **Work Experience** {data-icon=suitcase}
 --------------------------------------------------------------------------------
